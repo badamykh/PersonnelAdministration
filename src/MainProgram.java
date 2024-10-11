@@ -9,5 +9,6 @@ public class MainProgram {
         System.out.println(e02.getPerson() + "ist " + e02.getAlter() + " Jahre alt, wiegt " + e02.getGewicht() + " kg und startet mit einem Bruttogehalt von " + e02.getGehalt() + " Euro.");
         System.out.println(e02.getBesonderheiten());
         System.out.println("Testing commit changes");
+        System.out.println("aaaaaaaa");
     }
 }
