@@ -5,21 +5,18 @@ public class Employee {
     private char geschlecht;
     private int alter;
     private double gewicht;
-    private String abteilung;
-    private double gehalt;
-    private int dienstjahre;
+    private String abteilung = "A38";
+    private double gehalt = 1500;
+    private int dienstjahre = 0;
     private String besonderheiten;
 
-    public Employee(String nach, String vor, String geburt, char gend, int alt, double kg, String ab, double geld, int dienst, String ander) {
+    public Employee(String nach, String vor, String geburt, char gend, int alt, double kg, String ander) {
         name = nach;
         vorname = vor;
         geburtsdatum = geburt;
         geschlecht = gend;
         alter = alt;
         gewicht = kg;
-        abteilung = ab;
-        gehalt = geld;
-        dienstjahre = dienst;
         besonderheiten = ander;
     }
 
@@ -43,6 +40,9 @@ public class Employee {
     }
     public String getAbteilung() {
         return abteilung;
+    }
+    public void setAbteilung(String neuAbteil) {
+        abteilung = neuAbteil;
     }
     public double getGehalt() {
         return gehalt;
